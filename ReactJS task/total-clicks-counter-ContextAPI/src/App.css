@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+  padding: 1em 0;
+}
+
+.globalCounter {
+  display: flex;
+  justify-content: center;
+}
+
+.counters {
+  padding: 1em;
+  display: flex;
+}
+
+.resetGlobalCounter {
+  margin: 1em 0;
+}
+
+.btn {
+  padding: 0.8em 2.4em;
+  color: white;
+  background: black;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .counters {
+    display: flex;
+    flex-direction: column;
+  }
+}

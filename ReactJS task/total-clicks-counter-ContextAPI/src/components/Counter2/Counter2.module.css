@@ -1,0 +1,28 @@
+.container {
+  width: 280px;
+  border: 1px solid #333;
+  background: grey;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1em;
+  margin: 1em;
+}
+
+h3 {
+  font-size: 1.3rem;
+}
+
+.btn {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn button {
+  margin: 0.5em 0;
+  padding: 0.8em 2.4em;
+  background: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+}

@@ -1,0 +1,16 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: lavenderblush;
+  padding: 12px;
+}
+
+.counter_root {
+  padding: 20px;
+  background-color: lightgray;
+  margin: 12px;
+  display: inline-block;
+}
+.margin-10 {
+  margin: 10px;
+}
