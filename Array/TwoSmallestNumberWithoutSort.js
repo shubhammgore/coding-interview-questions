@@ -23,7 +23,7 @@ function findTwoSmallestNumbers(arr) {
     return [smallest, secondSmallest];
 }
 
-// Example usage:
+// Example:
 let arr = [51, 10, 93, 50, 32, 78, -1];
 let [smallest, secondSmallest] = findTwoSmallestNumbers(arr);
 console.log(`The two smallest numbers are: ${smallest} and ${secondSmallest}`);
